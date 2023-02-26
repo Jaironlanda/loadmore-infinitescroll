@@ -21,7 +21,7 @@ export default function Home() {
           <Col sm={6} className={'p-3'}>
             <Card>
               <Card.Body>
-                <Card.Img variant="top" src={'/example/loadmore-example.gif'}/>
+                <Card.Img variant="top" src={'public/example/loadmore-example.gif'}/>
                 <Card.Title>Load More Example</Card.Title>
                 <Card.Text>Basic Load more Button in ReactJS/NextJs</Card.Text>
                 <Link href={'/loadmore'} className={'btn btn-primary'}>View</Link>
@@ -31,7 +31,7 @@ export default function Home() {
           <Col sm={6} className={'p-3'}>
             <Card>
               <Card.Body>
-              <Card.Img variant="top" src={'/example/infinitescroll-example.gif'}/>
+              <Card.Img variant="top" src={'public/example/infinitescroll-example.gif'}/>
                 <Card.Title>infinite scroll</Card.Title>
                 <Card.Text>Basic infinite scroll in ReactJS/NextJs</Card.Text>
                 <Link href={'/autoloadmore'} className={'btn btn-primary'}>View</Link>
